@@ -1,18 +1,18 @@
 import React from "react";
-import { Nav,Container } from 'react-bootstrap';
+import { Nav,Navbar,Container } from 'react-bootstrap';
 
 
 
-const Navbar=()=>{
+const navbar=()=>{
     return(
         <div>
     <Navbar bg="light" variant="light">
     <Container>
-    <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+    <Navbar.Brand href="#home">Hydropro tunisie</Navbar.Brand>
     <Nav className="me-auto">
-      <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#features">Features</Nav.Link>
-      <Nav.Link href="#pricing">Pricing</Nav.Link>
+      <Nav.Link href="#home">ACCEUIL</Nav.Link>
+      <Nav.Link href="#features">CONTACT</Nav.Link>
+      <Nav.Link href="#pricing">PHOTOS</Nav.Link>
     </Nav>
     </Container>
   </Navbar>
@@ -20,4 +20,4 @@ const Navbar=()=>{
 </div>)
 }
 
-export default Navbar 
+export default navbar 
