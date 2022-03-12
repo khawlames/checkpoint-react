@@ -1,12 +1,12 @@
 import React from "react";
 import { Nav,Navbar,Container } from 'react-bootstrap';
-
+import './navbar.css'
 
 
 const navbar=()=>{
     return(
         <div>
-    <Navbar bg="light" variant="light">
+    <Navbar className="barre" >
     <Container>
     <Navbar.Brand href="#home">Hydropro tunisie</Navbar.Brand>
     <Nav className="me-auto">
